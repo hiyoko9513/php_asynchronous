@@ -1,4 +1,4 @@
-FROM php:8.2-fpm
+FROM php:8.0-fpm
 COPY php.ini /usr/local/etc/php/php.ini
 
 RUN apt-get update \
